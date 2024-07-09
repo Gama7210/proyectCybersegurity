@@ -1,0 +1,19 @@
+p.primero
+{
+	background: aqua;
+	font-family: cursive;
+	text-shadow: 5px 5px 15px pink;
+}
+p.dos
+{
+		background: aqua;
+	font-family: cursive;
+	text-shadow: 5px 5px 15px pink;
+}
+h1
+{
+		font-family: 'Playball', cursive;
+	text-shadow: 5px 10px 30px lime;
+	color: green;
+}
+img:hover {filter: blur(5px);}

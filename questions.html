@@ -1,0 +1,251 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Cybersecurity Exercise</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+        .container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 700px;
+            text-align: center; /* Añadido para centrar el contenido */
+        }
+        h1 {
+            color: #4a90e2;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        ol {
+            padding-left: 20px;
+            text-align: left; /* Alineación del texto a la izquierda */
+        }
+        li {
+            margin-bottom: 15px;
+        }
+        select {
+            font-size: 1em;
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .result {
+            font-weight: bold;
+            text-align: center;
+            margin-top: 20px;
+        }
+        input[type="button"] {
+            background-color: #4a90e2;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+            display: block;
+            margin: 20px auto;
+        }
+        input[type="button"]:hover {
+            background-color: #357abd;
+        }
+        .correct {
+            color: green;
+        }
+        .incorrect {
+            color: red;
+        }
+        .check {
+            margin-left: 10px;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cybersecurity Exercise</h1>
+        <form id="quizForm">
+            <ol>
+                <li>
+                    Organizations have invested millions in improving security measures.
+                    <br>Organizations ________ millions in improving security measures.
+                    <br>
+                    <select name="q1">
+                        <option value="----">----</option>
+                        <option value="have invested">have invested</option>
+                        <option value="had invested">had invested</option>
+                        <option value="has invested">has invested</option>
+                    </select>
+                    <span class="check"></span>
+                </li>
+                <li>
+                    Experts have adopted new strategies to combat cyber threats.
+                    <br>Experts ________ new strategies to combat cyber threats.
+                    <br>
+                    <select name="q2">
+                        <option value="----">----</option>
+                        <option value="had adopted">had adopted</option>
+                        <option value="has adopted">has adopted</option>
+                        <option value="have adopted">have adopted</option>
+                    </select>
+                    <span class="check"></span>
+                </li>
+                <li>
+                    The attackers have found ways to evade defenses.
+                    <br>The attackers ________ ways to evade defenses.
+                    <br>
+                    <select name="q3">
+                        <option value="----">----</option>
+                        <option value="had found">had found</option>
+                        <option value="have found">have found</option>
+                        <option value="has found">has found</option>
+                    </select>
+                    <span class="check"></span>
+                </li>
+                <li>
+                    Companies have launched innovative products in response to security challenges.
+                    <br>Companies ________ innovative products in response to security challenges.
+                    <br>
+                    <select name="q4">
+                        <option value="----">----</option>
+                        <option value="has launched">has launched</option>
+                        <option value="had launched">had launched</option>
+                        <option value="have launched">have launched</option>
+                    </select>
+                    <span class="check"></span>
+                </li>
+                <li>
+                    Organizations have faced unprecedented challenges due to cyber attacks.
+                    <br>Organizations ________ unprecedented challenges due to cyber attacks.
+                    <br>
+                    <select name="q5">
+                        <option value="----">----</option>
+                        <option value="had faced">had faced</option>
+                        <option value="has faced">has faced</option>
+                        <option value="have faced">have faced</option>
+                    </select>
+                    <span class="check"></span>
+                </li>
+                <li>
+                    True or False: Cybersecurity has become a strategic priority for businesses.
+                    <br>
+                    <select name="q6">
+                        <option value="----">----</option>
+                        <option value="True">True</option>
+                        <option value="False">False</option>
+                    </select>
+                    <span class="check"></span>
+                </li>
+                <li>
+                    True or False: Attackers have not developed any new techniques in recent years.
+                    <br>
+                    <select name="q7">
+                        <option value="----">----</option>
+                        <option value="True">True</option>
+                        <option value="False">False</option>
+                    </select>
+                    <span class="check"></span>
+                </li>
+                <li>
+                    True or False: Artificial intelligence is used to detect and prevent cyber threats.
+                    <br>
+                    <select name="q8">
+                        <option value="----">----</option>
+                        <option value="True">True</option>
+                        <option value="False">False</option>
+                    </select>
+                    <span class="check"></span>
+                </li>
+                <li>
+                    True or False: Organizations have ignored past cybersecurity lessons.
+                    <br>
+                    <select name="q9">
+                        <option value="----">----</option>
+                        <option value="True">True</option>
+                        <option value="False">False</option>
+                    </select>
+                    <span class="check"></span>
+                </li>
+                <li>
+                    True or False: The tech community has collaborated on global projects to improve cybersecurity.
+                    <br>
+                    <select name="q10">
+                        <option value="----">----</option>
+                        <option value="True">True</option>
+                        <option value="False">False</option>
+                    </select>
+                    <span class="check"></span>
+                </li>
+            </ol>
+            <input type="button" value="Check" onclick="checkAnswers()">
+        </form>
+        <p class="result" id="result"></p>
+    </div>
+
+    <script type="text/javascript">
+        var answers = {
+            q1: 'have invested',
+            q2: 'have adopted',
+            q3: 'have found',
+            q4: 'have launched',
+            q5: 'have faced',
+            q6: 'True',
+            q7: 'False',
+            q8: 'True',
+            q9: 'False',
+            q10: 'True'
+        };
+
+        function checkAnswers() {
+            var form = document.getElementById('quizForm');
+            var correct = 0;
+            var total = 10;
+
+            for (var question in answers) {
+                var userAnswer = form[question].value;
+                var parent = form[question].parentNode;
+                var checkSpan = parent.querySelector('.check');
+
+                // Reset styles before checking answers
+                parent.className = '';
+                checkSpan.textContent = '';
+
+                if (userAnswer !== '----') {
+                    if (userAnswer === answers[question]) {
+                        correct++;
+                        parent.className = 'correct';
+                        checkSpan.textContent = ' ✔️';
+                    } else {
+                        parent.className = 'incorrect';
+                        checkSpan.textContent = ' ✖️';
+                    }
+                }
+            }
+
+            var percentage = (correct / total) * 100;
+            document.getElementById('result').innerHTML = 'Percentage of correct answers: ' + percentage.toFixed(2) + '%';
+
+            // Redirigir a otra página si no alcanza el 100%
+            if (percentage < 100) {
+                window.location.href = 'virusbroma.html'; // Reemplaza 'otra_pagina.html' con la URL de la página a la que quieres redirigir
+            }
+            if (percentage === 100) {
+                window.location.href = 'felicidades.html'; // Reemplaza 'otra_pagina.html' con la URL de la página a la que quieres redirigir
+            }
+            
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Virus Alert!</title>
+    <style>
+        @keyframes blinkText {
+            0%, 50%, 100% {
+                opacity: 1;
+            }
+            25%, 75% {
+                opacity: 0;
+            }
+        }
+        @keyframes blinkBackground {
+            0%, 50%, 100% {
+                background-color: black;
+            }
+            25%, 75% {
+                background-color: red;
+            }
+        }
+        body {
+            color: red;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            animation: blinkBackground 1s infinite;
+        }
+        h1 {
+            margin-top: 20%;
+            font-size: 50px;
+            animation: blinkText 1s infinite;
+        }
+        img {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>WARNING!</h1>
+    <h2>You're an idiot</h2>
+    <img src="imagen/monomorado.gif" alt="Virus del Mono Morado">
+    <p>This is a prank. Don't worry, your computer is safe.</p>
+</body>
+</html>
